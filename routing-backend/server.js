@@ -4,7 +4,10 @@ const app = express();
 const PORT = 3001;
 
 // Middleware
-app.use(cors());
+app.use(cors({
+  origin : "https://routing-demo-xi.vercel.app",
+  methods:["GET","POST","PUT","DELETE","PATCH"]
+}));
 app.use(express.json());
 
 // Sample data

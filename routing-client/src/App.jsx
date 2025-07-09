@@ -295,7 +295,7 @@ const RouteDemo = () => {
                 </div>
                 <p className="text-red-700 mt-1">{error}</p>
                 <p className="text-red-600 text-sm mt-2">
-                  Make sure the Express server is running on localhost:3001
+                  Make sure the Express server is running
                 </p>
               </div>
             )}
