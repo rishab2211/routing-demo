@@ -206,7 +206,7 @@ const RouteDemo = () => {
               <span className="font-semibold text-yellow-800">Server Setup Required</span>
             </div>
             <p className="text-yellow-700 text-sm">
-              To see live responses, run the Express server on {API_BASE}
+              To see live responses, run the Express server on : <b>{API_BASE}</b>
             </p>
           </div>
         </div>
@@ -295,7 +295,7 @@ const RouteDemo = () => {
                 </div>
                 <p className="text-red-700 mt-1">{error}</p>
                 <p className="text-red-600 text-sm mt-2">
-                  Make sure the Express server is running on {API_BASE}
+                  Make sure the Express server is running on : <b>{API_BASE}</b>
                 </p>
               </div>
             )}
